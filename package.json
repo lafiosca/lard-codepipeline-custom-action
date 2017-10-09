@@ -1,0 +1,35 @@
+{
+  "name": "lard-codepipeline-custom-action",
+  "version": "1.0.0",
+  "description": "CodePipeline custom action Lambda function wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lafiosca/lard-codepipeline-custom-action.git"
+  },
+  "keywords": [
+    "lard",
+    "aws",
+    "lambda",
+    "promise",
+    "handler",
+    "codepipeline"
+  ],
+  "author": "Joe Lafiosca <joe@lafiosca.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lafiosca/lard-codepipeline-custom-action/issues"
+  },
+  "homepage": "https://github.com/lafiosca/lard-codepipeline-custom-action#readme",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "bluebird": "^3.5.1",
+    "lard-lambda-handler": "^1.0.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.130.0"
+  }
+}
